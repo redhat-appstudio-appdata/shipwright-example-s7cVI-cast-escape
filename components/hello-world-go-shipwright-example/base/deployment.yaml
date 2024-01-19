@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hello-world-go-shipwright-example
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/jkhelil-tenant/shipwright-example/hello-world-go-shipwright-example@sha256:7e2db4398cdc3e916b1f8dc4e176f3a7c48f00f46891a216838c8a810f0c0b63
         name: my-go
         ports:
         - containerPort: 8081
