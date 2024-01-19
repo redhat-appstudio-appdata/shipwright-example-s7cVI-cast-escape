@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hello-world-go-shipwright-example
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/jkhelil-tenant/shipwright-example/hello-world-go-shipwright-example@sha256:7e2db4398cdc3e916b1f8dc4e176f3a7c48f00f46891a216838c8a810f0c0b63
+        name: my-go
+        resources: {}
+status: {}
