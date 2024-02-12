@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/jkhelil-tenant/shipwright-example/hello-world-go-shipwright-example@sha256:7e2db4398cdc3e916b1f8dc4e176f3a7c48f00f46891a216838c8a810f0c0b63
+      - image: quay.io/redhat-user-workloads/jkhelil-tenant/shipwright-example/hello-world-go-shipwright-example@sha256:e86ed43c3c59c1da909a7ea8ccce198884b9be4b6076103fe712cbfc8c460a25
         name: my-go
         resources: {}
 status: {}
